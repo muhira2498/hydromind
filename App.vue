@@ -61,7 +61,7 @@ export default {
 
     onMounted(async () => {
       try {
-        const API_URL = import.meta.env.VITE_API_URL;
+        const API_URL = 'https://data.mrmhr.space';
         console.log("Fetching from:", API_URL); // 👈 helps debug
         const response = await fetch(`${API_URL}/?password=HAMMASgobrrrrrr`);
         const waterData = await response.json();
