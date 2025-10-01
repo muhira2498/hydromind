@@ -1,4 +1,4 @@
-- [ ] Update .env.production with correct API URL
-- [ ] Rebuild the project with npm run build
-- [ ] Commit the changes
-- [ ] Push to GitHub to redeploy
+- [x] Update .env.production with correct API URL
+- [x] Rebuild the project with npm run build
+- [x] Commit the changes
+- [x] Push to GitHub to redeploy
